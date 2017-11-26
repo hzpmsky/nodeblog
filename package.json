@@ -1,23 +1,19 @@
 {
-  "name": "node-blog",
+  "name": "blog-demo",
   "version": "1.0.0",
-  "description": "nodejs blog",
+  "description": "Node.js Blog Project.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hzpmsky/nodeblog.git"
-  },
-  "keywords": [
-    "nodejs",
-    "blog"
-  ],
-  "author": "lwj",
+  "author": "teacher",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/hzpmsky/nodeblog/issues"
-  },
-  "homepage": "https://github.com/hzpmsky/nodeblog#readme"
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "mysql": "^2.15.0"
+  }
 }
